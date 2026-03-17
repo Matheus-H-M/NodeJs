@@ -27,7 +27,7 @@ class MinhaTarefaAsync extends AsyncResource {
     }
 }
 
-// Create an instance of the custom async resourc
+// Create an instance of the custom async resource
 const tarefa = new MinhaTarefaAsync();
 
 // Execute the async task and pass a callback function
