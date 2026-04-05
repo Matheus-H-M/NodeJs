@@ -4,7 +4,7 @@ const async_hooks = require('async_hooks');
 const providers = async_hooks.asyncWrapProviders;
 
 // Print a header message
-console.log('List of asyncWrapProviders:\n')
+console.log('List of asyncWrapProviders:\n');
 
 // Loop through each provider and log its name and numeric ID
 for (const [name, id] of Object.entries(providers)) {
