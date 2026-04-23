@@ -4,7 +4,7 @@ const { Buffer } = require('node:buffer');
 // Create a buffer of size 5, filled with zeros by default
 const buf1 = Buffer.alloc(5);
 // Log the buffer contents
-console.log('buf1:', buf1);
+console.log('buf1:', buf1)
 
 // Create a buffer of size 5, filled with the character 'a'
 const buf2 = Buffer.alloc(5, 'a');
