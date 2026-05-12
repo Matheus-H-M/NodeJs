@@ -34,4 +34,4 @@ uint8[0] = 90; // ASCII for 'Z'
 console.log(
   'Buffer after ArrayBuffer modification:',
   buffer.toString('utf8', 0, 3)
-);
+)
