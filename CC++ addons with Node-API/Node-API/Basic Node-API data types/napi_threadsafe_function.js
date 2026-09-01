@@ -246,5 +246,5 @@ napi_value Init(
 }
 
 
-// Register the Init() function as the entry point of the Node.js addon
+// Register the Init() function as the entry point of the Node.js addon...
 NAPI_MODULE(NODE_GYP_MODULE_NAME, Init)
