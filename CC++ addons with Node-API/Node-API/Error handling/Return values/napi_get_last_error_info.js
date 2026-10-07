@@ -56,5 +56,5 @@ napi_value ejemplo(napi_env env, napi_callback_info info) {
 
     // Return NULL because this example does not create
     // or return a JavaScript value.
-    return NULL;
+    return NULL
 }
